@@ -1,17 +1,8 @@
-// App.jsx
-import Header from "./components/Header/Header.jsx";
-import CoreConcepts from "./components/CoreConcepts.jsx";
-import Examples from "./components/Examples.jsx";
+import LoginForm from "./components/LoginForm.jsx";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <main>
-        <CoreConcepts />
-        <Examples />
-      </main>
-    </div>
+    <LoginForm />
   );
 }
 
