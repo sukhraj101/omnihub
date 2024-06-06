@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #fff; }
 
 p {
@@ -8,7 +8,27 @@ p {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.login-title {
+  font-size: 2.55rem;
+}
+
+.login-desc {
+  color: #9a9a9a;
+  font-size: 1rem;
+}
+
+.login-logo {
+  width: 100px;
+}
+
+.login-btn {
+  font-size: 1.25rem;
+}
 
 a {
   -webkit-transition: .3s all ease;
@@ -59,14 +79,15 @@ h2 {
       border-top-left-radius: 7px;
       border-top-right-radius: 7px; }
     .half .contents .form-group.last, .half .bg .form-group.last {
-      border-bottom: 1px solid #efefef;
+      border-bottom: 1px solid #e3e3e3;
       border-bottom-left-radius: 7px;
       border-bottom-right-radius: 7px; }
     .half .contents .form-group label, .half .bg .form-group label {
-      font-size: 12px;
+      font-size: 13px;
+      letter-spacing: 0.3px;
       display: block;
       margin-bottom: 0;
-      color: #b3b3b3;
+      color: #b1b1b1;
       pointer-events: none; }
     .half .contents .form-group.field--not-empty label, .half .bg .form-group.field--not-empty label {
       margin-top: -20px; }
